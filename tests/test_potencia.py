@@ -4,10 +4,8 @@ from potencia import potencia
 
 
 def test_potencia_positiva():
-    # Error intencional: el resultado correcto es 8.
-    assert potencia(2, 3) == 10
-
-
+    assert potencia(2, 3) == 8
+    
 def test_exponente_cero():
     assert potencia(5, 0) == 1
 
